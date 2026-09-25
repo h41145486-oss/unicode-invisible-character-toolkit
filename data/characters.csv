@@ -1,0 +1,6 @@
+code_point,unicode_name,category,behavior,cleaner_action,caution
+U+034F,COMBINING GRAPHEME JOINER,combining mark,Can block canonical reordering and distinguish sequences in collation or search,removed,May carry meaningful language or collation behavior
+U+00AD,SOFT HYPHEN,format,Marks a discretionary hyphenation point,removed,Removing it can change line-break behavior
+U+200B,ZERO WIDTH SPACE,format,Marks an optional line-break opportunity,removed,Used intentionally in scripts that do not use visible word spaces
+U+2060,WORD JOINER,format,Prevents a line break at its position,removed,Removing it can permit a line break
+U+FEFF,BYTE ORDER MARK,format,Commonly marks byte order at the start of text and has a legacy word-joining use,removed,Check file encoding before removing a leading BOM
