@@ -38,6 +38,10 @@ The tool never edits the input file. It writes cleaned text to standard output. 
 
 Removal is not universally safe: these characters can carry intended line-breaking, joining, or encoding behavior. Review the report and keep an original copy when the text matters. This tool does not identify who wrote text, detect AI authorship, or detect statistical text watermarks. It removes only the five explicit code points listed above.
 
+## Licensing
+
+The command-line software and documentation are licensed under MIT (`LICENSE`). The `data/characters.csv` dataset is dedicated to the public domain under CC0 1.0 Universal (`LICENSE-DATA`).
+
 ## Sources
 
 Character names and behavior are described in the Unicode Consortium's [FAQ on unsupported and invisible characters](https://www.unicode.org/faq/unsup_char.html), [FAQ on combining marks](https://www.unicode.org/faq/char_combmark.html), and [Unicode Standard, Chapter 23](https://unicode.org/versions/latest/ch23.pdf). See [`docs/sources.md`](docs/sources.md) for the source notes.
